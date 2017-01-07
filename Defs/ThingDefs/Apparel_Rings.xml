@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+  <ThingDef Name="ApparelRingBase" ParentName="ArmorMakeableBase" Abstract="True">
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>0.1</DeteriorationRate>
+      <Insulation_Cold>0</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <MaxHitPoints>50</MaxHitPoints>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <commonality>2</commonality>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelRingBase">
+    <defName>Apparel_ring</defName>
+    <label>Ring</label>
+    <description>Its a ring out of precious material</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/ring</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <equippedStatOffsets>
+		<SocialImpact>+0.05</SocialImpact>
+    </equippedStatOffsets>
+  </ThingDef>
+
+</ThingDefs>

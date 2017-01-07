@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+  <ThingDef Name="ApparelGlovesBase" ParentName="ApparelMakeableBase" Abstract="True">
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>0.1</DeteriorationRate>
+      <Insulation_Cold>-2</Insulation_Cold>
+      <Insulation_Heat>-1</Insulation_Heat>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <layers>
+        <li>shell</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelGlovesBase">
+    <defName>Apparel_work_gloves</defName>
+    <label>Work gloves</label>
+    <description>A simple pair of gloves. Will protect your fingers and make your job easier.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/work_gloves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+    </statBases>
+     <equippedStatOffsets>
+      <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelGlovesBase">
+    <defName>Apparel_thick_gloves</defName>
+    <label>Mining gloves</label>
+    <description>A pair of tick gloves. Great for mining, not so great for everything else. Their thickness gives a little more protection.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/thick_gloves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MiningSpeed>+0.10</MiningSpeed>
+      <WorkSpeedGlobal>-0.025</WorkSpeedGlobal>
+    </equippedStatOffsets>
+  </ThingDef>
+
+</ThingDefs>
