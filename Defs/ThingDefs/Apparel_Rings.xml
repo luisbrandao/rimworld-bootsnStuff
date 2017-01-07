@@ -12,6 +12,9 @@
       <ArmorRating_Sharp>0</ArmorRating_Sharp>
       <MaxHitPoints>50</MaxHitPoints>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -33,6 +36,21 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelRingBase">
+    <defName>Apparel_ring</defName>
+    <label>Ring</label>
+    <description>Its a ring out of precious material</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/ring</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <equippedStatOffsets>
+		<SocialImpact>+0.05</SocialImpact>
+    </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
@@ -59,21 +77,6 @@
         </li>
       </options>
     </colorGenerator>
-  </ThingDef>
-
-
-  <ThingDef ParentName="ApparelRingBase">
-    <defName>Apparel_ring</defName>
-    <label>Ring</label>
-    <description>Its a ring out of precious material</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/ring</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>40</costStuffCount>
-    <equippedStatOffsets>
-		<SocialImpact>+0.05</SocialImpact>
-    </equippedStatOffsets>
   </ThingDef>
 
 </ThingDefs>
