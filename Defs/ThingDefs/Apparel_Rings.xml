@@ -12,8 +12,17 @@
       <ArmorRating_Sharp>0</ArmorRating_Sharp>
       <MaxHitPoints>50</MaxHitPoints>
     </statBases>
+	  
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <effectWorking>Smelt</effectWorking>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
     <stuffCategories>
       <li>Metallic</li>
