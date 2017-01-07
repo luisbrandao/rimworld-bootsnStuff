@@ -3,14 +3,15 @@
   <ThingDef Name="ApparelRingBase" ParentName="ArmorMakeableBase" Abstract="True">
     <statBases>
       <WorkToMake>20000</WorkToMake>
-      <Mass>0.1</Mass>
-      <DeteriorationRate>0.1</DeteriorationRate>
+      <Mass>0.05</Mass>
+      <DeteriorationRate>0.01</DeteriorationRate>
       <Insulation_Cold>0</Insulation_Cold>
       <Insulation_Heat>0</Insulation_Heat>
       <ArmorRating_Heat>0</ArmorRating_Heat>
       <ArmorRating_Blunt>0</ArmorRating_Blunt>
       <ArmorRating_Sharp>0</ArmorRating_Sharp>
       <MaxHitPoints>50</MaxHitPoints>
+	  <SellPriceFactor>1.2</SellPriceFactor>
     </statBases>
 	  
     <recipeMaker>
@@ -26,6 +27,7 @@
     </recipeMaker>
     <stuffCategories>
       <li>Metallic</li>
+	  <li>Stony</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
