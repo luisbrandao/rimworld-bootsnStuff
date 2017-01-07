@@ -73,9 +73,9 @@
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>1000</WorkToMake>
-      <ArmorRating_Heat>0.1</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.01</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
     </statBases>
      <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
@@ -94,9 +94,9 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
-      <ArmorRating_Heat>0.2</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.02</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
       <MiningSpeed>+0.10</MiningSpeed>
