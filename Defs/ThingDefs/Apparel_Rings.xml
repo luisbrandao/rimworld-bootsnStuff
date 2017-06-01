@@ -12,7 +12,6 @@
       <ArmorRating_Sharp>0</ArmorRating_Sharp>
       <MaxHitPoints>50</MaxHitPoints>
 	  <SellPriceFactor>1.2</SellPriceFactor>
-	  <generateAllowChance>0.1</generateAllowChance>
     </statBases>
 	  
     <recipeMaker>
@@ -33,6 +32,7 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
+	<generateAllowChance>0.1</generateAllowChance>
     <apparel>
 	  <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
@@ -41,7 +41,6 @@
       <layers>
         <li>OnSkin</li>
       </layers>
-      <commonality>2</commonality>
       <tags>
         <li>Outlander</li>
       </tags>

@@ -2,6 +2,7 @@
 
 <ThingDefs>
   <ThingDef Name="ApparelBootBase" ParentName="ApparelMakeableBase" Abstract="True">
+	<generateCommonality>1</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Feet</li>
@@ -9,7 +10,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -52,8 +52,6 @@
       <DeteriorationRate>0.01</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>-1</Insulation_Heat>
-	  <generateAllowChance>1</generateAllowChance>
-	  <generateCommonality>1</generateCommonality>
     </statBases>
      <equippedStatOffsets>
       <MoveSpeed>0.2</MoveSpeed>
