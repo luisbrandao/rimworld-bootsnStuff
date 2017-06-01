@@ -37,6 +37,7 @@
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <apparel>
+	  <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Outlander</li>
       </tags>
@@ -51,6 +52,8 @@
       <DeteriorationRate>0.01</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>-1</Insulation_Heat>
+	  <generateAllowChance>1</generateAllowChance>
+	  <generateCommonality>1</generateCommonality>
     </statBases>
      <equippedStatOffsets>
       <MoveSpeed>0.2</MoveSpeed>

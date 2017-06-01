@@ -7,6 +7,7 @@
       <DeteriorationRate>0.1</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>-1</Insulation_Heat>
+	  <generateCommonality>0.5</generateCommonality>
     </statBases>
     <stuffCategories>
       <li>Fabric</li>
@@ -19,13 +20,13 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <apparel>
+	  <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
       </bodyPartGroups>
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
       <tags>
         <li>Outlander</li>
       </tags>

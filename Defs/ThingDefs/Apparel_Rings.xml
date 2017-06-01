@@ -12,6 +12,7 @@
       <ArmorRating_Sharp>0</ArmorRating_Sharp>
       <MaxHitPoints>50</MaxHitPoints>
 	  <SellPriceFactor>1.2</SellPriceFactor>
+	  <generateAllowChance>0.1</generateAllowChance>
     </statBases>
 	  
     <recipeMaker>
@@ -33,6 +34,7 @@
       <li>Apparel</li>
     </thingCategories>
     <apparel>
+	  <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
       </bodyPartGroups>
