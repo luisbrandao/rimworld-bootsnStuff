@@ -11,9 +11,9 @@
       <ArmorRating_Blunt>0</ArmorRating_Blunt>
       <ArmorRating_Sharp>0</ArmorRating_Sharp>
       <MaxHitPoints>50</MaxHitPoints>
-	  <SellPriceFactor>1.2</SellPriceFactor>
+      <SellPriceFactor>1.2</SellPriceFactor>
     </statBases>
-	  
+
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -27,14 +27,14 @@
     </recipeMaker>
     <stuffCategories>
       <li>Metallic</li>
-	  <li>Stony</li>
+      <li>Stony</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-	<generateAllowChance>0.1</generateAllowChance>
+    <generateAllowChance>0.1</generateAllowChance>
     <apparel>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
       </bodyPartGroups>
@@ -61,7 +61,8 @@
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
-		<SocialImpact>+0.05</SocialImpact>
+      <SocialImpact>+0.05</SocialImpact>
+      <GiftImpact>+0.05</GiftImpact>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
       <options>

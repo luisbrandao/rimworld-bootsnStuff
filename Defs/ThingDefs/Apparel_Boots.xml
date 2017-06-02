@@ -2,7 +2,7 @@
 
 <ThingDefs>
   <ThingDef Name="ApparelBootBase" ParentName="ApparelMakeableBase" Abstract="True">
-	<generateCommonality>1</generateCommonality>
+    <generateCommonality>1</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Feet</li>
@@ -15,7 +15,6 @@
       </defaultOutfitTags>
     </apparel>
     <stuffCategories>
-      <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
@@ -23,11 +22,11 @@
     </thingCategories>
   </ThingDef>
 
-  
+
   <ThingDef ParentName="ApparelBootBase">
     <defName>Apparel_boots</defName>
     <label>Boots</label>
-    <description>Hard Boots for long walking days.</description>
+    <description>Hard Boots to protect your foot during work.</description>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
@@ -37,7 +36,7 @@
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <apparel>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Outlander</li>
       </tags>
@@ -53,8 +52,8 @@
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>-1</Insulation_Heat>
     </statBases>
-     <equippedStatOffsets>
-      <MoveSpeed>0.2</MoveSpeed>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.2</MoveSpeed>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -84,11 +83,71 @@
     </colorGenerator>
   </ThingDef>
 
-  
+
+  <ThingDef ParentName="ApparelBootBase">
+    <defName>Apparel_military_Boots</defName>
+    <label>Military Boots</label>
+    <description>High quality boots designed for combatants. Quite expensive and hard to make.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/boots</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+    </apparel>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <WorkToMake>20000</WorkToMake>
+      <ArmorRating_Heat>0.04</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <DeteriorationRate>0.01</DeteriorationRate>
+      <Insulation_Cold>-2</Insulation_Cold>
+      <Insulation_Heat>-1</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
   <ThingDef ParentName="ApparelBootBase">
     <defName>Apparel_sandals</defName>
     <label>Sandals</label>
-    <description>Simple low tech sandals, for warm temperatures.</description>
+    <description>Simple low tech sandals. Great for warm temperatures.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/sandals</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -111,16 +170,14 @@
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
     </statBases>
-     <equippedStatOffsets>
-      <MoveSpeed>0.1</MoveSpeed>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.1</MoveSpeed>
     </equippedStatOffsets>
   </ThingDef>
-
-  
   <ThingDef ParentName="ApparelBootBase">
     <defName>Apparel_shoes</defName>
     <label>Shoes</label>
-    <description>Nice shoes. More elegant, but harder to make. </description>
+    <description>Nice shoes. More elegant, but harder to make.</description>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
@@ -145,8 +202,8 @@
       <DeteriorationRate>0.01</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
     </statBases>
-     <equippedStatOffsets>
-      <MoveSpeed>0.1</MoveSpeed>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.1</MoveSpeed>
       <SocialImpact>+0.05</SocialImpact>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
@@ -176,5 +233,4 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  
- </ThingDefs>
+</ThingDefs>

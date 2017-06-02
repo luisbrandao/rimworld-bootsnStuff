@@ -2,11 +2,10 @@
 <ThingDefs>
   <ThingDef Name="ApparelGlovesBase" ParentName="ApparelMakeableBase" Abstract="True">
     <statBases>
-      <WorkToMake>4000</WorkToMake>
       <Mass>0.2</Mass>
       <DeteriorationRate>0.1</DeteriorationRate>
-      <Insulation_Cold>-2</Insulation_Cold>
-      <Insulation_Heat>-1</Insulation_Heat>
+      <Insulation_Cold>0</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
     </statBases>
     <stuffCategories>
       <li>Fabric</li>
@@ -18,9 +17,9 @@
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
-	<generateCommonality>0.5</generateCommonality>
+    <generateCommonality>0.5</generateCommonality>
     <apparel>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
       </bodyPartGroups>
@@ -34,32 +33,6 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
-        </li>
-        <li>
-          <weight>15</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
   </ThingDef>
 
   <ThingDef ParentName="ApparelGlovesBase">
@@ -67,41 +40,19 @@
     <label>Work gloves</label>
     <description>A simple pair of gloves. Will protect your fingers and make your job easier.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/workgloves</texPath>
+      <texPath>Things/Item/Equipment/Apparel/gloves</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>35</costStuffCount>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <WorkToMake>1000</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <ArmorRating_Heat>0.01</ArmorRating_Heat>
       <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
     </statBases>
-     <equippedStatOffsets>
-      <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
-    </equippedStatOffsets>
-  </ThingDef>
-  
-  <ThingDef ParentName="ApparelGlovesBase">
-    <defName>Apparel_thick_gloves</defName>
-    <label>Mining gloves</label>
-    <description>A pair of tick gloves. Great for mining, not so great for everything else. Their thickness gives a little more protection.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/thickgloves</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>40</costStuffCount>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>2000</WorkToMake>
-      <ArmorRating_Heat>0.02</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
-    </statBases>
     <equippedStatOffsets>
-      <MiningSpeed>+0.10</MiningSpeed>
-      <WorkSpeedGlobal>-0.025</WorkSpeedGlobal>
+      <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -131,4 +82,74 @@
     </colorGenerator>
   </ThingDef>
 
+  <ThingDef ParentName="ApparelGlovesBase">
+    <defName>Apparel_thick_gloves</defName>
+    <label>Mining gloves</label>
+    <description>A pair of tick gloves. Great for miner and builders, not so great for everything else. Their thickness gives a little more protection.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/glovesMiner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <ArmorRating_Heat>0.02</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MiningSpeed>+0.10</MiningSpeed>
+      <ConstructionSpeed>+0.10</ConstructionSpeed>
+      <WorkSpeedGlobal>-0.020</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelGlovesBase">
+    <defName>Apparel_medic_gloves</defName>
+    <label>Medic gloves</label>
+    <description>A pair of thin clean gloves. They wont last long, but are great for doctors.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <DeteriorationRate>1</DeteriorationRate>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+    </statBases>
+    <equippedStatOffsets>
+      <Cleanliness>+0.10</Cleanliness>
+      <HealingSpeed>+0.10</HealingSpeed>
+      <SurgerySuccessChance>+0.10</SurgerySuccessChance>
+      <MedicalTendQualityOffset>+0.10</MedicalTendQualityOffset>
+    </equippedStatOffsets>
+  </ThingDef>
 </ThingDefs>
