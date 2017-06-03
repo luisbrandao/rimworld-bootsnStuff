@@ -37,6 +37,7 @@
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
+        <li>Fingers</li>
       </bodyPartGroups>
       <layers>
         <li>OnSkin</li>

@@ -22,9 +22,10 @@
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
+        <li>Shoulders</li>
       </bodyPartGroups>
       <layers>
-        <li>Shell</li>
+        <li>Overhead</li>
       </layers>
       <tags>
         <li>Outlander</li>
@@ -147,8 +148,6 @@
     </statBases>
     <equippedStatOffsets>
       <Cleanliness>+0.10</Cleanliness>
-      <HealingSpeed>+0.10</HealingSpeed>
-      <SurgerySuccessChance>+0.10</SurgerySuccessChance>
       <MedicalTendQualityOffset>+0.10</MedicalTendQualityOffset>
     </equippedStatOffsets>
   </ThingDef>

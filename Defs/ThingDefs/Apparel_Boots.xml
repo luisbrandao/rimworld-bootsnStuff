@@ -6,9 +6,10 @@
     <apparel>
       <bodyPartGroups>
         <li>Feet</li>
+        <li>Legs</li>
       </bodyPartGroups>
       <layers>
-        <li>Shell</li>
+        <li>Overhead</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

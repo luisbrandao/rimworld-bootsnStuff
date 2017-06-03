@@ -20,6 +20,7 @@
     <apparel>
       <careIfWornByCorpse>true</careIfWornByCorpse>
       <bodyPartGroups>
+        <li>Legs</li>
         <li>Feet</li>
       </bodyPartGroups>
       <layers>
