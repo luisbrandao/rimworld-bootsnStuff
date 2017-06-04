@@ -135,6 +135,9 @@
   <ThingDef ParentName="ApparelGlovesBase">
     <defName>Apparel_medic_gloves</defName>
     <label>Medic gloves</label>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
     <description>A pair of thin clean gloves. They wont last long, but are great for doctors.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
