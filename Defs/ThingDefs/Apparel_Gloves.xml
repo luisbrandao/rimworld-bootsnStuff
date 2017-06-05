@@ -22,9 +22,10 @@
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
+        <li>Shoulders</li>
       </bodyPartGroups>
       <layers>
-        <li>Shell</li>
+        <li>Overhead</li>
       </layers>
       <tags>
         <li>Outlander</li>
@@ -134,6 +135,9 @@
   <ThingDef ParentName="ApparelGlovesBase">
     <defName>Apparel_medic_gloves</defName>
     <label>Medic gloves</label>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
     <description>A pair of thin clean gloves. They wont last long, but are great for doctors.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
@@ -147,8 +151,6 @@
     </statBases>
     <equippedStatOffsets>
       <Cleanliness>+0.10</Cleanliness>
-      <HealingSpeed>+0.10</HealingSpeed>
-      <SurgerySuccessChance>+0.10</SurgerySuccessChance>
       <MedicalTendQualityOffset>+0.10</MedicalTendQualityOffset>
     </equippedStatOffsets>
   </ThingDef>

@@ -39,7 +39,7 @@
     <label>Socks</label>
     <description>A simple pair of Socks.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/gloves</texPath>
+      <texPath>Things/Item/Equipment/Apparel/socks</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>35</costStuffCount>
