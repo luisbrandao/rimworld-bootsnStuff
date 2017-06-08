@@ -4,6 +4,7 @@
   <ThingDef Name="ApparelBootBase" ParentName="ApparelMakeableBase" Abstract="True">
     <generateCommonality>1</generateCommonality>
     <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Feet</li>
       </bodyPartGroups>
@@ -36,7 +37,6 @@
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <apparel>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Outlander</li>
       </tags>
@@ -97,7 +97,6 @@
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <apparel>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Outlander</li>
       </tags>
@@ -154,7 +153,6 @@
     </graphicData>
     <costStuffCount>30</costStuffCount>
     <apparel>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Tribal</li>
         <li>Outlander</li>
@@ -175,7 +173,7 @@
       <MoveSpeed>+0.1</MoveSpeed>
     </equippedStatOffsets>
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelBootBase">
     <defName>Apparel_shoes</defName>
     <label>Shoes</label>
@@ -189,7 +187,6 @@
     </graphicData>
     <costStuffCount>55</costStuffCount>
     <apparel>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>
