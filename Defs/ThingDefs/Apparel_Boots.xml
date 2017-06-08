@@ -154,6 +154,7 @@
     </graphicData>
     <costStuffCount>30</costStuffCount>
     <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Tribal</li>
         <li>Outlander</li>
@@ -174,6 +175,7 @@
       <MoveSpeed>+0.1</MoveSpeed>
     </equippedStatOffsets>
   </ThingDef>
+  
   <ThingDef ParentName="ApparelBootBase">
     <defName>Apparel_shoes</defName>
     <label>Shoes</label>
@@ -187,6 +189,7 @@
     </graphicData>
     <costStuffCount>55</costStuffCount>
     <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
       <tags>
         <li>Outlander</li>
         <li>Spacer</li>

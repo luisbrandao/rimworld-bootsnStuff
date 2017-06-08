@@ -32,7 +32,7 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-    <generateAllowChance>0.1</generateAllowChance>
+    <generateAllowChance>0.5</generateAllowChance>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
