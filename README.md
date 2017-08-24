@@ -4,7 +4,6 @@ github: https://github.com/techmago/rimworld-bootsnStuff
 
 Simple Mod about Boots and Gloves and other Stuff. 
 
-Do you like RolePlaying? Yeah thats why you play Rimworld and thats why u need Boots and Stuff. 
 
 #Features 
 
