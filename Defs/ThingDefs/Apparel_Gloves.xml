@@ -4,8 +4,8 @@
     <statBases>
       <Mass>0.2</Mass>
       <DeteriorationRate>0.1</DeteriorationRate>
-      <Insulation_Cold>0</Insulation_Cold>
-      <Insulation_Heat>0</Insulation_Heat>
+      <Insulation_Cold>-3</Insulation_Cold>
+      <Insulation_Heat>-1</Insulation_Heat>
     </statBases>
     <stuffCategories>
       <li>Fabric</li>
@@ -48,11 +48,9 @@
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
-      <ArmorRating_Heat>0.01</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-      <Insulation_Cold>-1</Insulation_Cold>
-      <Insulation_Heat>-1</Insulation_Heat>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
@@ -97,11 +95,9 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>3000</WorkToMake>
-      <ArmorRating_Heat>0.02</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
-      <Insulation_Cold>-2</Insulation_Cold>
-      <Insulation_Heat>-2</Insulation_Heat>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
       <MiningSpeed>+0.10</MiningSpeed>
@@ -152,10 +148,16 @@
       <DeteriorationRate>1</DeteriorationRate>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>3000</WorkToMake>
+      <Insulation_Cold>-1</Insulation_Cold>
+      <Insulation_Heat>-1</Insulation_Heat>
+      <ArmorRating_Heat>0.01</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-      <MedicalTendSpeed>+0.05</MedicalTendSpeed>
-      <MedicalTendQuality>+0.05</MedicalTendQuality>
+      <MedicalTendQuality>0.10</MedicalTendQuality>
+      <MedicalTendSpeed>0.10</MedicalTendSpeed>
+      <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>

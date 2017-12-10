@@ -45,10 +45,10 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>0.4</Mass>
       <WorkToMake>10000</WorkToMake>
-      <ArmorRating_Heat>0.02</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-      <DeteriorationRate>0.01</DeteriorationRate>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <DeteriorationRate>0.1</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>-1</Insulation_Heat>
     </statBases>
@@ -105,10 +105,10 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>0.4</Mass>
       <WorkToMake>20000</WorkToMake>
-      <ArmorRating_Heat>0.04</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-      <DeteriorationRate>0.01</DeteriorationRate>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <DeteriorationRate>0.1</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>-1</Insulation_Heat>
     </statBases>
@@ -162,10 +162,10 @@
       <MaxHitPoints>50</MaxHitPoints>
       <Mass>0.4</Mass>
       <WorkToMake>5000</WorkToMake>
-      <ArmorRating_Heat>0.05</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-      <DeteriorationRate>0.01</DeteriorationRate>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <DeteriorationRate>0.1</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
     </statBases>
@@ -196,10 +196,10 @@
       <MaxHitPoints>80</MaxHitPoints>
       <Mass>0.4</Mass>
       <WorkToMake>15000</WorkToMake>
-      <ArmorRating_Heat>0.02</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-      <DeteriorationRate>0.01</DeteriorationRate>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <DeteriorationRate>0.1</DeteriorationRate>
       <Insulation_Cold>-2</Insulation_Cold>
     </statBases>
     <equippedStatOffsets>

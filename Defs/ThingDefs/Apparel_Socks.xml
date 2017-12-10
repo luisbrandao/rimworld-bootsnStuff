@@ -44,6 +44,9 @@
     </graphicData>
     <costStuffCount>35</costStuffCount>
     <statBases>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
       <Insulation_Cold>-2</Insulation_Cold>
