@@ -46,7 +46,8 @@
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
-      <ArmorRating_Heat>0.01</ArmorRating_Heat>
+      <Insulation_Cold>-2</Insulation_Cold>
+      <Insulation_Heat>-2</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>+0.1</MoveSpeed>

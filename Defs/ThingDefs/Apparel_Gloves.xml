@@ -51,6 +51,8 @@
       <ArmorRating_Heat>0.01</ArmorRating_Heat>
       <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+      <Insulation_Cold>-1</Insulation_Cold>
+      <Insulation_Heat>-1</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
@@ -98,6 +100,8 @@
       <ArmorRating_Heat>0.02</ArmorRating_Heat>
       <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
+      <Insulation_Cold>-2</Insulation_Cold>
+      <Insulation_Heat>-2</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MiningSpeed>+0.10</MiningSpeed>
@@ -150,8 +154,8 @@
       <WorkToMake>3000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
-      <Cleanliness>+0.10</Cleanliness>
-      <MedicalTendQualityOffset>+0.10</MedicalTendQualityOffset>
+      <MedicalTendSpeed>+0.05</MedicalTendSpeed>
+      <MedicalTendQuality>+0.05</MedicalTendQuality>
     </equippedStatOffsets>
   </ThingDef>
 </ThingDefs>
