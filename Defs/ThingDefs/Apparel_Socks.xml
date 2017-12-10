@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
   <ThingDef Name="ApparelSocksBase" ParentName="ApparelMakeableBase" Abstract="True">
     <statBases>
       <Mass>0.2</Mass>
@@ -53,4 +53,4 @@
       <MoveSpeed>+0.1</MoveSpeed>
     </equippedStatOffsets>
   </ThingDef>
-</ThingDefs>
+</Defs>

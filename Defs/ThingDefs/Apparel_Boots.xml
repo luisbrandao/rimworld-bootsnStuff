@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<ThingDefs>
+<Defs>
   <ThingDef Name="ApparelBootBase" ParentName="ApparelMakeableBase" Abstract="True">
     <generateCommonality>1</generateCommonality>
     <apparel>
@@ -233,4 +233,4 @@
       </options>
     </colorGenerator>
   </ThingDef>
-</ThingDefs>
+</Defs>

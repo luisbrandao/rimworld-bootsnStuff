@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
   <ThingDef Name="ApparelRingBase" ParentName="ArmorMakeableBase" Abstract="True">
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -62,7 +62,6 @@
     <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <SocialImpact>+0.05</SocialImpact>
-      <GiftImpact>+0.05</GiftImpact>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -92,4 +91,4 @@
     </colorGenerator>
   </ThingDef>
 
-</ThingDefs>
+</Defs>
