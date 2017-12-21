@@ -4,8 +4,6 @@
     <statBases>
       <Mass>0.2</Mass>
       <DeteriorationRate>0.1</DeteriorationRate>
-      <Insulation_Cold>-3</Insulation_Cold>
-      <Insulation_Heat>-1</Insulation_Heat>
     </statBases>
     <stuffCategories>
       <li>Fabric</li>
@@ -35,7 +33,6 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-
   <ThingDef ParentName="ApparelGlovesBase">
     <defName>Apparel_work_gloves</defName>
     <label>Work gloves</label>
@@ -48,9 +45,11 @@
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
-      <ArmorRating_Heat>0.1</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.03</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>1</Insulation_Cold>
+      <Insulation_Heat>-1</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
@@ -82,7 +81,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
   <ThingDef ParentName="ApparelGlovesBase">
     <defName>Apparel_thick_gloves</defName>
     <label>Mining gloves</label>
@@ -95,9 +93,11 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>3000</WorkToMake>
-      <ArmorRating_Heat>0.2</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.045</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.045</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.045</ArmorRating_Sharp>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>-2</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MiningSpeed>+0.10</MiningSpeed>
@@ -131,7 +131,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
   <ThingDef ParentName="ApparelGlovesBase">
     <defName>Apparel_medic_gloves</defName>
     <label>Medic gloves</label>
@@ -148,11 +147,9 @@
       <DeteriorationRate>1</DeteriorationRate>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>3000</WorkToMake>
-      <Insulation_Cold>-1</Insulation_Cold>
-      <Insulation_Heat>-1</Insulation_Heat>
       <ArmorRating_Heat>0.01</ArmorRating_Heat>
       <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
       <MedicalTendQuality>0.10</MedicalTendQuality>

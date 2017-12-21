@@ -44,16 +44,13 @@
     </graphicData>
     <costStuffCount>35</costStuffCount>
     <statBases>
-      <ArmorRating_Heat>0.1</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.015</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.015</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.015</ArmorRating_Sharp>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
-      <Insulation_Cold>-2</Insulation_Cold>
-      <Insulation_Heat>-2</Insulation_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
     </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>+0.1</MoveSpeed>
-    </equippedStatOffsets>
   </ThingDef>
 </Defs>
