@@ -22,7 +22,7 @@
       <li>Apparel</li>
     </thingCategories>
   </ThingDef>
-  <ThingDef ParentName="ApparelBootBase">
+  <ThingDef ParentName="ApparelBootBase"> <!-- Boots -->
     <defName>Apparel_boots</defName>
     <label>Boots</label>
     <description>Hard Boots to protect your foot during work.</description>
@@ -80,7 +80,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBootBase">
+  <ThingDef ParentName="ApparelBootBase"> <!-- Military Boots -->
     <defName>Apparel_military_Boots</defName>
     <label>Military Boots</label>
     <description>High quality boots designed for combatants. Quite expensive and hard to make.</description>
@@ -138,14 +138,22 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBootBase">
+  <ThingDef ParentName="ApparelBootBase"> <!-- Sandals -->
     <defName>Apparel_sandals</defName>
     <label>Sandals</label>
     <description>Simple low tech sandals. Great for warm temperatures.</description>
+    <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/sandals</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+    </recipeMaker>
     <costStuffCount>30</costStuffCount>
     <apparel>
       <tags>
@@ -168,7 +176,7 @@
       <MoveSpeed>+0.4</MoveSpeed>
     </equippedStatOffsets>
   </ThingDef>
-  <ThingDef ParentName="ApparelBootBase">
+  <ThingDef ParentName="ApparelBootBase"> <!-- Shoes -->
     <defName>Apparel_shoes</defName>
     <label>Shoes</label>
     <description>Nice shoes. More elegant, but harder to make.</description>
