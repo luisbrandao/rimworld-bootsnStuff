@@ -33,7 +33,7 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-  <ThingDef ParentName="ApparelGlovesBase">
+  <ThingDef ParentName="ApparelGlovesBase"> <!-- Work gloves -->
     <defName>Apparel_work_gloves</defName>
     <label>Work gloves</label>
     <description>A simple pair of gloves. Will protect your fingers and make your job easier.</description>
@@ -81,10 +81,10 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelGlovesBase">
+  <ThingDef ParentName="ApparelGlovesBase"> <!-- Miner gloves -->
     <defName>Apparel_thick_gloves</defName>
-    <label>Mining gloves</label>
-    <description>A pair of tick gloves. Great for miner and builders, not so great for everything else. Their thickness gives a little more protection.</description>
+    <label>Miner gloves</label>
+    <description>A pair of tick gloves. Great for miners and builders, not so great for everything else. Their thickness gives a little more protection.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesMiner</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -131,7 +131,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelGlovesBase">
+  <ThingDef ParentName="ApparelGlovesBase"> <!-- Medic gloves -->
     <defName>Apparel_medic_gloves</defName>
     <label>Medic gloves</label>
     <stuffCategories>

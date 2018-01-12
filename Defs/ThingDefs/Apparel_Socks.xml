@@ -33,8 +33,7 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-
-  <ThingDef ParentName="ApparelSocksBase">
+  <ThingDef ParentName="ApparelSocksBase"> <!-- Socks -->
     <defName>Apparel_Socks</defName>
     <label>Socks</label>
     <description>A simple pair of Socks.</description>

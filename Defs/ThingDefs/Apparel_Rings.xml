@@ -49,9 +49,7 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-
-
-  <ThingDef ParentName="ApparelRingBase">
+  <ThingDef ParentName="ApparelRingBase"> <!-- Ring -->
     <defName>Apparel_ring</defName>
     <label>Ring</label>
     <description>Its a ring out of precious material</description>
@@ -90,5 +88,4 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
 </Defs>
