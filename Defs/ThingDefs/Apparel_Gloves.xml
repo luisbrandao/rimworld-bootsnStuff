@@ -48,8 +48,8 @@
       <ArmorRating_Heat>0.03</ArmorRating_Heat>
       <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
-      <Insulation_Cold>1</Insulation_Cold>
-      <Insulation_Heat>-1</Insulation_Heat>
+      <Insulation_Cold>-1</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
@@ -96,8 +96,8 @@
       <ArmorRating_Heat>0.045</ArmorRating_Heat>
       <ArmorRating_Blunt>0.045</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.045</ArmorRating_Sharp>
-      <Insulation_Cold>2</Insulation_Cold>
-      <Insulation_Heat>-2</Insulation_Heat>
+      <Insulation_Cold>-2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MiningSpeed>+0.10</MiningSpeed>

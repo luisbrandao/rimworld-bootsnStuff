@@ -48,7 +48,7 @@
       <ArmorRating_Sharp>0.015</ArmorRating_Sharp>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
-      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Cold>-2</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
     </statBases>
   </ThingDef>
