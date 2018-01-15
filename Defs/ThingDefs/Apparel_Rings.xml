@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Name="ApparelRingBase" ParentName="ArmorMakeableBase" Abstract="True">
     <statBases>
-      <WorkToMake>30000</WorkToMake>
+      <WorkToMake>5000</WorkToMake>
       <Mass>0.05</Mass>
       <DeteriorationRate>0.0001</DeteriorationRate>
       <Insulation_Cold>0</Insulation_Cold>
