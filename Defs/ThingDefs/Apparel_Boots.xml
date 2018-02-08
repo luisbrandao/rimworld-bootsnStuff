@@ -88,7 +88,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/boots</texPath>
+      <texPath>Things/Item/Equipment/Apparel/bootsMilitary</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>80</costStuffCount>
