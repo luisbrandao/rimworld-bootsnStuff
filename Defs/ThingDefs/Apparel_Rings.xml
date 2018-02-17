@@ -4,13 +4,13 @@
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>0.05</Mass>
-      <DeteriorationRate>0.0001</DeteriorationRate>
+      <DeteriorationRate>0</DeteriorationRate>
       <Insulation_Cold>0</Insulation_Cold>
       <Insulation_Heat>0</Insulation_Heat>
       <ArmorRating_Heat>0</ArmorRating_Heat>
       <ArmorRating_Blunt>0</ArmorRating_Blunt>
       <ArmorRating_Sharp>0</ArmorRating_Sharp>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MaxHitPoints>100</MaxHitPoints>
       <SellPriceFactor>1.4</SellPriceFactor>
     </statBases>
 
