@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef Name="ApparelRingBase" ParentName="ArmorMakeableBase" Abstract="True">
+  <ThingDef Name="ApparelRingBase" ParentName="ArmorSmithableBase" Abstract="True">
     <statBases>
-      <WorkToMake>5000</WorkToMake>
       <Mass>0.05</Mass>
       <DeteriorationRate>0</DeteriorationRate>
-      <Insulation_Cold>0</Insulation_Cold>
-      <Insulation_Heat>0</Insulation_Heat>
-      <ArmorRating_Heat>0</ArmorRating_Heat>
-      <ArmorRating_Blunt>0</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0</ArmorRating_Sharp>
-      <MaxHitPoints>100</MaxHitPoints>
       <SellPriceFactor>1.4</SellPriceFactor>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.00</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.1</EquipDelay>
     </statBases>
 
     <recipeMaker>

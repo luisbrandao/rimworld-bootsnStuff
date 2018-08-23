@@ -43,13 +43,12 @@
     </graphicData>
     <costStuffCount>35</costStuffCount>
     <statBases>
-      <ArmorRating_Heat>0.015</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.015</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.015</ArmorRating_Sharp>
-      <MaxHitPoints>90</MaxHitPoints>
-      <WorkToMake>2000</WorkToMake>
-      <Insulation_Cold>-2</Insulation_Cold>
-      <Insulation_Heat>2</Insulation_Heat>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.015</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
     </statBases>
   </ThingDef>
 </Defs>

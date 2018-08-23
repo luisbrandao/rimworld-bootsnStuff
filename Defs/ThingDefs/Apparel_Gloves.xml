@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Name="ApparelGlovesBase" ParentName="ApparelMakeableBase" Abstract="True">
     <statBases>
-      <Mass>0.2</Mass>
+      <Mass>0.15</Mass>
       <DeteriorationRate>0.1</DeteriorationRate>
     </statBases>
     <stuffCategories>
@@ -32,6 +32,32 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Work gloves -->
     <defName>Apparel_work_gloves</defName>
@@ -45,91 +71,37 @@
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
-      <ArmorRating_Heat>0.03</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
-      <Insulation_Cold>-1</Insulation_Cold>
-      <Insulation_Heat>1</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.03</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
     </equippedStatOffsets>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
-        </li>
-        <li>
-          <weight>15</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
   </ThingDef>
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Miner gloves -->
     <defName>Apparel_thick_gloves</defName>
     <label>Miner gloves</label>
-    <description>A pair of tick gloves. Great for miners and builders, not so great for everything else. Their thickness gives a little more protection.</description>
+    <description>A pair of thick gloves. Great for miners and builders, not so great for everything else. Their thickness gives a little more protection.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesMiner</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
-      <ArmorRating_Heat>0.045</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.045</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.045</ArmorRating_Sharp>
-      <Insulation_Cold>-2</Insulation_Cold>
-      <Insulation_Heat>2</Insulation_Heat>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.045</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MiningSpeed>+0.10</MiningSpeed>
       <ConstructionSpeed>+0.10</ConstructionSpeed>
       <WorkSpeedGlobal>-0.020</WorkSpeedGlobal>
     </equippedStatOffsets>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
-        </li>
-        <li>
-          <weight>15</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
   </ThingDef>
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Medic gloves -->
     <defName>Apparel_medic_gloves</defName>
@@ -137,19 +109,19 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
-    <description>A pair of thin clean gloves. They wont last long, but are great for doctors.</description>
+    <description>A pair of thin clean gloves. Great for doing Surgeries.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <statBases>
-      <DeteriorationRate>1</DeteriorationRate>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>3000</WorkToMake>
-      <ArmorRating_Heat>0.01</ArmorRating_Heat>
-      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+      <StuffEffectMultiplierArmor>0.00</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MedicalTendQuality>0.10</MedicalTendQuality>
