@@ -28,6 +28,15 @@ Medic gloves: Thin gloves with limited lifespan. They do assist in medical opera
 ==== Rings:
 Rings are expensive and hard to make, but they give social impact and worth a lot.
 
+ver 1.5.1
+* Temperature rebalance
+
+ver 1.5.0
+* A19 port
+
+ver 1.4.4
+* Fix wrong texture for military boots.4
+
 ver 1.4.3
 * WAY better textures thanks to @Other_Olly
 
@@ -58,7 +67,7 @@ Ver 1.1:
 *Rings are harder to make, but worth a lot more
 *Make rings rare
 *Make boots/gloves not so common
-*Sandals can be made in crafting stop
+*Sandals can be made in crafting spot
 *new preview (help of @thundercraft)
 
 Ver 1.0 - Release

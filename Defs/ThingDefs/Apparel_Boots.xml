@@ -44,8 +44,8 @@
       <Mass>0.4</Mass>
       <WorkToMake>10000</WorkToMake>
       <StuffEffectMultiplierArmor>0.045</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.050</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.050</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -100,8 +100,8 @@
       <Mass>0.4</Mass>
       <WorkToMake>20000</WorkToMake>
       <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.080</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.050</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -162,8 +162,8 @@
       <Mass>0.2</Mass>
       <WorkToMake>5000</WorkToMake>
       <StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -193,8 +193,8 @@
       <Mass>0.35</Mass>
       <WorkToMake>15000</WorkToMake>
       <StuffEffectMultiplierArmor>0.03</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.04</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
