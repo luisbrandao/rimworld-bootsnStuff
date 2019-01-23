@@ -33,7 +33,7 @@
       <texPath>Things/Item/Equipment/Apparel/boots</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>35</costStuffCount>
     <apparel>
       <tags>
         <li>Outlander</li>
@@ -42,7 +42,7 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>0.4</Mass>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>3000</WorkToMake>
       <StuffEffectMultiplierArmor>0.360</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.050</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.050</StuffEffectMultiplierInsulation_Heat>
@@ -89,7 +89,7 @@
       <texPath>Things/Item/Equipment/Apparel/bootsMilitary</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>80</costStuffCount>
+    <costStuffCount>45</costStuffCount>
     <apparel>
       <tags>
         <li>Outlander</li>
@@ -98,7 +98,7 @@
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>0.4</Mass>
-      <WorkToMake>20000</WorkToMake>
+      <WorkToMake>15000</WorkToMake>
       <StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.080</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.050</StuffEffectMultiplierInsulation_Heat>
@@ -150,7 +150,7 @@
 				<li>CraftingSpot</li>
 			</recipeUsers>
     </recipeMaker>
-    <costStuffCount>30</costStuffCount>
+    <costStuffCount>20</costStuffCount>
     <apparel>
       <tags>
         <li>Tribal</li>
@@ -159,8 +159,8 @@
     </apparel>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <Mass>0.2</Mass>
-      <WorkToMake>5000</WorkToMake>
+      <Mass>0.14</Mass>
+      <WorkToMake>1800</WorkToMake>
       <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
@@ -181,7 +181,7 @@
       <texPath>Things/Item/Equipment/Apparel/shoes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>55</costStuffCount>
+    <costStuffCount>45</costStuffCount>
     <apparel>
       <tags>
         <li>Outlander</li>

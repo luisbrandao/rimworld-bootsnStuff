@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Name="ApparelSocksBase" ParentName="ApparelMakeableBase" Abstract="True">
     <statBases>
-      <Mass>0.2</Mass>
+      <Mass>0.1</Mass>
       <DeteriorationRate>0.2</DeteriorationRate>
       <Insulation_Cold>1</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
@@ -41,10 +41,10 @@
       <texPath>Things/Item/Equipment/Apparel/socks</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>35</costStuffCount>
+    <costStuffCount>25</costStuffCount>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
+      <WorkToMake>1800</WorkToMake>
       <StuffEffectMultiplierArmor>0.090</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.060</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.010</StuffEffectMultiplierInsulation_Heat>

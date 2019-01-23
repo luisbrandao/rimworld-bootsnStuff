@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Name="ApparelGlovesBase" ParentName="ApparelMakeableBase" Abstract="True">
     <statBases>
-      <Mass>0.15</Mass>
+      <Mass>0.1</Mass>
       <DeteriorationRate>0.1</DeteriorationRate>
     </statBases>
     <stuffCategories>
@@ -67,10 +67,10 @@
       <texPath>Things/Item/Equipment/Apparel/gloves</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>35</costStuffCount>
+    <costStuffCount>25</costStuffCount>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <WorkToMake>2000</WorkToMake>
+      <WorkToMake>1900</WorkToMake>
       <StuffEffectMultiplierArmor>0.06</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.040</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
@@ -88,7 +88,7 @@
       <texPath>Things/Item/Equipment/Apparel/glovesMiner</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>35</costStuffCount>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
@@ -114,7 +114,7 @@
       <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>35</costStuffCount>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>3000</WorkToMake>
