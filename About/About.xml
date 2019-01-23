@@ -3,6 +3,8 @@
   <name>Boots and Stuff[1.0]</name>
   <author>Techmago</author>
   <url>https://github.com/techmago/rimworld-bootsnStuff</url>
-	<targetVersion>1.0.2059</targetVersion>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
   <description>Simple mod that adds boots and gloves to rimworld.</description>
 </ModMetaData>
