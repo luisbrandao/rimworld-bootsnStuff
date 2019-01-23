@@ -58,6 +58,7 @@
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
+      <NegotiationAbility>+0.1</NegotiationAbility>
       <SocialImpact>+0.1</SocialImpact>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
