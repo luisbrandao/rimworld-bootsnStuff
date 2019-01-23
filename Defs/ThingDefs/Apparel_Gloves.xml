@@ -71,10 +71,10 @@
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>1900</WorkToMake>
-      <StuffEffectMultiplierArmor>0.06</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.060</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.040</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.0</EquipDelay>
+      <StuffEffectMultiplierInsulation_Heat>0.040</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
@@ -83,7 +83,7 @@
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Miner gloves -->
     <defName>Apparel_thick_gloves</defName>
     <label>Miner gloves</label>
-    <description>A pair of thick gloves. Great for miners and builders, not so great for everything else. Their thickness gives a little more protection.</description>
+    <description>A pair of thick gloves. Great for miners and builders, horrible for medics. Their thickness gives a little more protection.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesMiner</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -93,14 +93,18 @@
       <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
       <StuffEffectMultiplierArmor>0.090</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.040</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.0</EquipDelay>
+      <StuffEffectMultiplierInsulation_Cold>0.080</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.080</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MiningSpeed>+0.10</MiningSpeed>
-      <ConstructionSpeed>+0.10</ConstructionSpeed>
-      <WorkSpeedGlobal>-0.020</WorkSpeedGlobal>
+      <MiningSpeed>+0.15</MiningSpeed>
+      <ConstructionSpeed>+0.15</ConstructionSpeed>
+      <ConstructSuccessChance>+0.15</ConstructSuccessChance>
+      <MedicalTendQuality>-0.05</MedicalTendQuality>
+      <MedicalTendSpeed>-0.10</MedicalTendSpeed>
+      <MedicalSurgerySuccessChance>-0.05</MedicalSurgerySuccessChance>
+      <MedicalOperationSpeed>-0.10</MedicalOperationSpeed>
     </equippedStatOffsets>
   </ThingDef>
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Medic gloves -->
@@ -109,7 +113,7 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
-    <description>A pair of thin clean gloves. Great for doing Surgeries.</description>
+    <description>A pair of thin clean gloves. Great for doing Surgeries and tending pacients.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -121,12 +125,13 @@
       <StuffEffectMultiplierArmor>0.00</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.0</EquipDelay>
+      <EquipDelay>0.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MedicalTendQuality>0.10</MedicalTendQuality>
-      <MedicalTendSpeed>0.10</MedicalTendSpeed>
-      <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
+      <MedicalTendQuality>+0.05</MedicalTendQuality>
+      <MedicalTendSpeed>+0.10</MedicalTendSpeed>
+      <MedicalSurgerySuccessChance>+0.05</MedicalSurgerySuccessChance>
+      <MedicalOperationSpeed>+0.10</MedicalOperationSpeed>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>

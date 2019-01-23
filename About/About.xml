@@ -6,5 +6,135 @@
   <supportedVersions>
     <li>1.0</li>
   </supportedVersions>
-  <description>Simple mod that adds boots and gloves to rimworld.</description>
+  <description>
+    Simple mod that adds boots and gloves to Rimworld.
+
+    Tired of having your colonists wearing expensive hyperwave cloths, and walking around barefoot? Squirrels keep biting off you fingers? Protect yourself!
+
+    #Features
+
+    ==== Footwear:
+    Sandals: Sandals will give you almost no protection from damage or cold, but they will make you fast and help in hot biomes.
+      MoveSpeed +40%
+      No armor
+
+    Boots: Boots give you the most protection, but are hot and heavier
+      MoveSpeed +30%
+      Light armor
+
+    Military Boots: Tought armored boots.
+      MoveSpeed +20%
+      Armored
+
+    Shoes: Shoes are more expensive, worth more, and are more balanced.
+      MoveSpeed +30%
+      Really Light armor
+
+    ==== Hand-wear:
+    Work gloves: Protect your hands, so you can work faster!
+      WorkSpeedGlobal +5%
+
+    Mining gloves: tick gloves. Good for mining and building, but uncorfortable for medics. They also offers more protection.
+      MiningSpeed +15%
+      ConstructionSpeed +15%
+      ConstructSuccessChance +15%
+      MedicalTendQuality -5%
+      MedicalTendSpeed -10%
+      MedicalSurgerySuccessChance -5%
+      MedicalOperationSpeed -10%
+
+    Medic gloves: Thin gloves with limited lifespan. They do assist in medical operations.
+      MedicalTendQuality +5%
+      MedicalTendSpeed +10%
+      MedicalSurgerySuccessChance +5%
+      MedicalOperationSpeed +10%
+
+    ==== Rings:
+    Rings are expensive and hard to make, but they give social impact and worth a lot.
+      NegotiationAbility +10%
+      SocialImpact +10%
+
+    Note:
+    Only bionic arms and no hads for rings? try this:
+    https://steamcommunity.com/sharedfiles/filedetails/?id=1528295006
+
+    ver 1.6.0
+    * Rebalance in the itens costs/work to make
+    * Rebalance of bunuses
+
+    ver 1.5.1
+    * Temperature rebalance
+
+    ver 1.5.0
+    * A19 port
+
+    ver 1.4.4
+    * Fix wrong texture for military boots.4
+
+    ver 1.4.3
+    * WAY better textures thanks to @Other_Olly
+
+    ver 1.4.2:
+    * Sandals should be makeable on the crafting spot.
+
+    ver 1.4.1:
+    * BIG rework of all stats. Also fixed some nonsense about then.
+
+    ver 1.4.0:
+    * a18 update
+    * WAY better stats for medical gloves
+    * WAY better armor ratings for gloves and boots
+
+    ver 1.3.1:
+    * Better stats for medical gloves
+
+    ver 1.3:
+    * New textures
+    * Socks (for your sandals)
+    * Medical gloves (Implemented, but weirdly. WIP)
+
+    Ver 1.2:
+    *A17 release
+
+    Ver 1.1:
+    *Pawns don't mind using the items from dead people
+    *Rings are harder to make, but worth a lot more
+    *Make rings rare
+    *Make boots/gloves not so common
+    *Sandals can be made in crafting spot
+    *new preview (help of @thundercraft)
+
+    Ver 1.0 - Release
+
+    # Know bugs
+    Bionics: The issue is with the core of Rimworld.... bionic arms and legs have no hands, fingers, foots and toes. Any fix i try would make this mod a lot more complex, and would break many other mods like EPOE.
+
+    Japanese Translation: (Someone was nice enough to make one)
+    (b1.0) https://steamcommunity.com/sharedfiles/filedetails/?id=1500929597 - by Natoto
+
+
+    Check out my other mods!
+
+    More Medications - Reborn
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=1601812699
+
+    Hardcore Storytellers
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=831774478
+
+    Simple Loom
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=1489517427
+
+    Boots and Stuff
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=1488970545
+
+    Minigun2
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=1588721300
+
+    Chitin
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=1488933307
+
+    Shale - from oil to plastic
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=1248055193
+
+  </description>
 </ModMetaData>
