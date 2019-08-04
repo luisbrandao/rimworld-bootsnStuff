@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Name="ApparelRingBase" ParentName="ArmorSmithableBase" Abstract="True">
     <statBases>
-      <Mass>0.05</Mass>
+      <Mass>0.02</Mass>
       <DeteriorationRate>0</DeteriorationRate>
       <SellPriceFactor>1.4</SellPriceFactor>
       <MaxHitPoints>500</MaxHitPoints>

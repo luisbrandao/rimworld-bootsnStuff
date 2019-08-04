@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Name="ApparelSocksBase" ParentName="ApparelMakeableBase" Abstract="True">
     <statBases>
-      <Mass>0.1</Mass>
+      <Mass>0.05</Mass>
       <DeteriorationRate>0.2</DeteriorationRate>
       <Insulation_Cold>1</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
