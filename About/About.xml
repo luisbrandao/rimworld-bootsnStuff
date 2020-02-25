@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Boots and Stuff[1.1]</name>
+  <packageId>Techmago.BootsnStuff</packageId>
   <author>Techmago</author>
   <url>https://github.com/techmago/rimworld-bootsnStuff</url>
   <supportedVersions>
