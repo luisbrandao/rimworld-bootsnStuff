@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Boots and Stuff[1.0]</name>
+  <name>Boots and Stuff[1.1]</name>
   <author>Techmago</author>
   <url>https://github.com/techmago/rimworld-bootsnStuff</url>
   <supportedVersions>
-    <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
   <description>
     Simple mod that adds boots and gloves to Rimworld.
@@ -57,6 +57,10 @@
     Note:
     Only bionic arms and no hads for rings? try this:
     https://steamcommunity.com/sharedfiles/filedetails/?id=1528295006
+
+    ver 1.7.0
+    * rimworld 1.1
+    * Normal Gloves now contribute to GeneralLaborSpeed
 
     ver 1.6.0
     * Rebalance in the itens costs/work to make

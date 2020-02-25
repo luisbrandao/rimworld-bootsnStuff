@@ -78,6 +78,7 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
+      <GeneralLaborSpeed>+0.05</GeneralLaborSpeed>
     </equippedStatOffsets>
   </ThingDef>
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Miner gloves -->

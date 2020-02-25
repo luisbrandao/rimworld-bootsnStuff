@@ -15,7 +15,7 @@
 
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers>
         <li>ElectricSmithy</li>
