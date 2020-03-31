@@ -20,10 +20,10 @@
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Hands</li>
-        <li>Shoulders</li>
+        <li>Arms</li>
       </bodyPartGroups>
       <layers>
-        <li>Overhead</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>Outlander</li>
