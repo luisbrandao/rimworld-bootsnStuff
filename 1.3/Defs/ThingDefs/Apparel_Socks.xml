@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="ApparelSocksBase" ParentName="ApparelMakeableBase" Abstract="True">
+    <statBases>
+      <Mass>0.05</Mass>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Insulation_Cold>1</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <generateCommonality>0.9</generateCommonality>
+    <apparel>
+      <careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="ApparelSocksBase"> <!-- Socks -->
+    <defName>Apparel_Socks</defName>
+    <label>Socks</label>
+    <description>A simple pair of Socks.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/socks</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <StuffEffectMultiplierArmor>0.090</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.060</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.010</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+  </ThingDef>
+</Defs>
