@@ -18,7 +18,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>techmago_bootsnStuff</li>
     </thingCategories>
   </ThingDef>
   <ThingDef ParentName="ApparelBootBase"> <!-- Boots -->
