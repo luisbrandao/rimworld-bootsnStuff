@@ -34,6 +34,7 @@
     <generateAllowChance>0.8</generateAllowChance>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>Hands</li>
       </bodyPartGroups>
