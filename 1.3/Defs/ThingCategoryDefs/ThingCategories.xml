@@ -3,6 +3,6 @@
   <ThingCategoryDef>
     <defName>techmago_bootsnStuff</defName>
     <label>Boots and gloves</label>
-    <parent>Root</parent>
+    <parent>Apparel</parent>
   </ThingCategoryDef>
 </Defs>
