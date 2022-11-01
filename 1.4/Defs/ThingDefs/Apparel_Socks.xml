@@ -13,9 +13,6 @@
     <thingCategories>
       <li>techmago_bootsnStuff</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <generateCommonality>0.9</generateCommonality>
     <apparel>
       <careIfWornByCorpse>true</careIfWornByCorpse>
@@ -34,9 +31,43 @@
     </apparel>
   </ThingDef>
   <ThingDef ParentName="ApparelSocksBase"> <!-- Socks -->
+    <defName>Apparel_feetwraps</defName>
+    <label>Feet wraps</label>
+    <description>A simple cloth wraping help to prevent scratches</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/feetWraps</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+    </recipeMaker>
+    <costStuffCount>15</costStuffCount>
+    <apparel>
+      <tags>
+        <li>Tribal</li>
+        <li>Outlander</li>
+      </tags>
+    </apparel>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToMake>900</WorkToMake>
+      <StuffEffectMultiplierArmor>0.030</StuffEffectMultiplierArmor>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelSocksBase"> <!-- Socks -->
     <defName>Apparel_Socks</defName>
     <label>Socks</label>
     <description>A simple pair of Socks.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/socks</texPath>
       <graphicClass>Graphic_Single</graphicClass>

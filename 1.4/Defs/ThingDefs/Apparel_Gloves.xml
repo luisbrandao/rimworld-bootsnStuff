@@ -12,9 +12,6 @@
     <thingCategories>
       <li>techmago_bootsnStuff</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <generateCommonality>0.5</generateCommonality>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
@@ -59,6 +56,44 @@
     </colorGenerator>
   </ThingDef>
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Work gloves -->
+    <defName>Apparel_handwraps</defName>
+    <label>Hand wraps</label>
+    <description>A simple cloth wraping help to prevent scratches</description>
+    <techLevel>Neolithic</techLevel>
+    <recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/handWraps</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>45</MaxHitPoints>
+      <WorkToMake>800</WorkToMake>
+      <StuffEffectMultiplierArmor>0.030</StuffEffectMultiplierArmor>
+      <EquipDelay>0.1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>+0.01</WorkSpeedGlobal>
+      <MiningSpeed>+0.08</MiningSpeed>
+      <PlantWorkSpeed>0.08</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <tags>
+        <li>Tribal</li>
+        <li>Outlander</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="ApparelGlovesBase"> <!-- Work gloves -->
     <defName>Apparel_work_gloves</defName>
     <label>Work gloves</label>
     <description>A simple pair of gloves. Will protect your fingers and make your job easier.</description>
@@ -66,6 +101,9 @@
       <texPath>Things/Item/Equipment/Apparel/gloves</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
     <costStuffCount>25</costStuffCount>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
@@ -78,6 +116,8 @@
     <equippedStatOffsets>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
       <GeneralLaborSpeed>+0.05</GeneralLaborSpeed>
+      <MiningSpeed>+0.10</MiningSpeed>
+      <PlantWorkSpeed>0.10</PlantWorkSpeed>
     </equippedStatOffsets>
   </ThingDef>
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Miner gloves -->
@@ -99,6 +139,7 @@
     </statBases>
     <equippedStatOffsets>
       <MiningSpeed>+0.15</MiningSpeed>
+      <PlantWorkSpeed>+0.15</PlantWorkSpeed>
       <ConstructionSpeed>+0.15</ConstructionSpeed>
       <ConstructSuccessChance>+0.15</ConstructSuccessChance>
       <MedicalTendQuality>-0.05</MedicalTendQuality>
@@ -113,6 +154,9 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
     <description>A pair of thin clean gloves. Great for doing Surgeries and tending pacients.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
