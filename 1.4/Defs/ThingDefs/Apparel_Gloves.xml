@@ -58,7 +58,7 @@
   <ThingDef ParentName="ApparelGlovesBase"> <!-- Work gloves -->
     <defName>Apparel_handwraps</defName>
     <label>Hand wraps</label>
-    <description>A simple cloth wraping help to prevent scratches</description>
+    <description>A simple wraping help to prevent scratches</description>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
 			<recipeUsers>
