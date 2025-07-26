@@ -21,6 +21,46 @@
       <li>techmago_bootsnStuff</li>
     </thingCategories>
   </ThingDef>
+  <ThingDef ParentName="ApparelBootBase"> <!-- Sandals -->
+    <defName>Apparel_sandals</defName>
+    <label>Sandals</label>
+    <description>Simple low tech sandals. Great for warm temperatures.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/bootsSandals</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+    </recipeMaker>
+    <costStuffCount>20</costStuffCount>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <tags>
+        <li>Tribal</li>
+        <li>Outlander</li>
+      </tags>
+    </apparel>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.14</Mass>
+      <WorkToMake>1500</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.4</MoveSpeed>
+    </equippedStatOffsets>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
   <ThingDef ParentName="ApparelBootBase"> <!-- Boots -->
     <defName>Apparel_boots</defName>
     <label>Boots</label>
@@ -35,20 +75,209 @@
     <costStuffCount>35</costStuffCount>
     <apparel>
       <tags>
-        <li>Outlander</li>
+        <li>IndustrialBasic</li>
       </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+        <li>Spacefarer</li>
+      </defaultOutfitTags>
     </apparel>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <Mass>0.25</Mass>
-      <WorkToMake>3000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.360</StuffEffectMultiplierArmor>
+      <Mass>0.20</Mass>
+      <WorkToMake>2100</WorkToMake>
+      <StuffEffectMultiplierArmor>0.250</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.050</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.050</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.025</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>+0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="ApparelBootBase"> <!-- Shoes -->
+    <defName>Apparel_shoes</defName>
+    <label>Shoes</label>
+    <description>Nice shoes. More elegant, but harder to make.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/bootsShoes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>45</costStuffCount>
+    <apparel>
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+      </tags>
+    </apparel>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Mass>0.20</Mass>
+      <WorkToMake>2500</WorkToMake>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.025</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.025</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.3</MoveSpeed>
+      <SocialImpact>+0.1</SocialImpact>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="ApparelBootBase"> <!-- Fancy Shoes -->
+    <defName>Apparel_fancy_shoes</defName>
+    <label>Fancy shoes</label>
+    <description>Elegant royal shoes.</description>
+    <recipeMaker>
+      <researchPrerequisite>NobleApparel</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/bootsFancy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>55</costStuffCount>
+    <apparel>
+      <tags>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <gender>Male</gender>
+    </apparel>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.20</Mass>
+      <WorkToMake>3000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.025</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.025</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.3</MoveSpeed>
+      <SocialImpact>+0.2</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.3,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.5,0.5,0.5,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="ApparelBootBase"> <!-- Heels -->
+    <defName>Apparel_fancy_heels</defName>
+    <label>High heels</label>
+    <description>Elegant royal heels.</description>
+    <recipeMaker>
+      <researchPrerequisite>NobleApparel</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/bootsHeels</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <apparel>
+      <tags>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+      </tags>
+      <gender>Female</gender>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <Mass>0.14</Mass>
+      <WorkToMake>2100</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.025</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+      <SocialImpact>+0.25</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -89,6 +318,13 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>45</costStuffCount>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
     <apparel>
       <tags>
         <li>Outlander</li>
@@ -97,110 +333,14 @@
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>0.35</Mass>
-      <WorkToMake>15000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.720</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.080</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.080</StuffEffectMultiplierInsulation_Heat>
+      <WorkToMake>5000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.100</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>+0.2</MoveSpeed>
-      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
-    </equippedStatOffsets>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
-        </li>
-        <li>
-          <weight>15</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
-  </ThingDef>
-  <ThingDef ParentName="ApparelBootBase"> <!-- Sandals -->
-    <defName>Apparel_sandals</defName>
-    <label>Sandals</label>
-    <description>Simple low tech sandals. Great for warm temperatures.</description>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/sandals</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <recipeMaker>
-			<recipeUsers>
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
-				<li>CraftingSpot</li>
-			</recipeUsers>
-    </recipeMaker>
-    <costStuffCount>20</costStuffCount>
-    <apparel>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <tags>
-        <li>Tribal</li>
-        <li>Outlander</li>
-      </tags>
-    </apparel>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <Mass>0.14</Mass>
-      <WorkToMake>1800</WorkToMake>
-      <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>+0.4</MoveSpeed>
-    </equippedStatOffsets>
-  </ThingDef>
-  <ThingDef ParentName="ApparelBootBase"> <!-- Shoes -->
-    <defName>Apparel_shoes</defName>
-    <label>Shoes</label>
-    <description>Nice shoes. More elegant, but harder to make.</description>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/shoes</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>45</costStuffCount>
-    <apparel>
-      <tags>
-        <li>Outlander</li>
-        <li>Spacer</li>
-      </tags>
-    </apparel>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <Mass>0.20</Mass>
-      <WorkToMake>15000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.025</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.025</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>+0.3</MoveSpeed>
-      <SocialImpact>+0.1</SocialImpact>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
@@ -245,7 +385,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/bootsPower</texPath>
+      <texPath>Things/Item/Equipment/Apparel/bootsMarine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tradeTags>
@@ -285,17 +425,17 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>0.5</Mass>
-      <WorkToMake>20000</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
       <ArmorRating_Heat>0.50</ArmorRating_Heat>
-      <Insulation_Cold>60</Insulation_Cold>
-      <Insulation_Heat>9</Insulation_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>+0.2</MoveSpeed>
-      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
     </equippedStatOffsets>
     <colorGenerator Class="ColorGenerator_Options">
