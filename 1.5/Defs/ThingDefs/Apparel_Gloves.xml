@@ -125,7 +125,7 @@
     <label>Miner gloves</label>
     <description>A pair of thick gloves. Great for miners and builders, horrible for medics. Their thickness gives a little more protection.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/glovesMiner</texPath>
+      <texPath>Things/Item/Equipment/Apparel/glovesThick</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>35</costStuffCount>
@@ -159,7 +159,7 @@
     </recipeMaker>
     <description>A pair of thin clean gloves. Great for doing Surgeries and tending pacients.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/glovesWhite</texPath>
+      <texPath>Things/Item/Equipment/Apparel/glovesMedic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>35</costStuffCount>
