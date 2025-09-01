@@ -30,7 +30,7 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-  <ThingDef ParentName="ApparelSocksBase"> <!-- Socks -->
+  <ThingDef ParentName="ApparelSocksBase"> <!-- Feet Wraps -->
     <defName>Apparel_feetwraps</defName>
     <label>Feet wraps</label>
     <description>A simple cloth wraping help to prevent scratches</description>
@@ -76,7 +76,7 @@
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <WorkToMake>1800</WorkToMake>
-      <StuffEffectMultiplierArmor>0.090</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.125</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.060</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.010</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.0</EquipDelay>

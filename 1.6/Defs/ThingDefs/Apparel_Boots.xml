@@ -404,6 +404,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
         <li>Spacefarer</li>
+        <li>Worker</li>
       </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <soundWear>Wear_PowerArmor</soundWear>
@@ -415,9 +416,6 @@
       <layers>
         <li>Middle</li>
       </layers>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
     </apparel>
     <thingCategories>
       <li>techmago_bootsnStuff</li>
