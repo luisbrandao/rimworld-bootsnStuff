@@ -139,7 +139,7 @@
     <description>Simple low tech sandals. Great for warm temperatures.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/sandals</texPath>
+      <texPath>Things/Item/Equipment/Apparel/bootsSandals</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
@@ -178,7 +178,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Equipment/Apparel/shoes</texPath>
+      <texPath>Things/Item/Equipment/Apparel/bootsShoes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>45</costStuffCount>
